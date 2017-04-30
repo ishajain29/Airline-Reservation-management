@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWfx:idth="-Infinity" minHeight="-Infinity" minWfx:idth="-Infinity" prefHeight="400.0" prefWfx:idth="600.0" style="-fx-background-color: #433e3e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SearchController">
+   <children>
+      <Label layoutX="210.0" layoutY="10.0" text="Search Results" textFill="#2bc3a7">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="316.0" layoutY="45.0" startX="-100.0" stroke="#2bc3a7" />
+      <Label fx:id="row00" layoutX="63.0" layoutY="94.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row01" layoutX="142.0" layoutY="94.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row02" layoutX="221.0" layoutY="94.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row03" layoutX="296.0" layoutY="94.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row04" layoutX="371.0" layoutY="94.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="r0" layoutX="476.0" layoutY="95.0" mnemonicParsing="false" text="Book" />
+      <Button fx:id="r1" layoutX="476.0" layoutY="139.0" mnemonicParsing="false" text="Book" />
+      <Label fx:id="row14" layoutX="371.0" layoutY="138.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row13" layoutX="296.0" layoutY="138.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row12" layoutX="221.0" layoutY="138.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row11" layoutX="142.0" layoutY="138.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row10" layoutX="63.0" layoutY="138.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row20" layoutX="63.0" layoutY="180.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row21" layoutX="142.0" layoutY="180.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row22" layoutX="221.0" layoutY="180.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row23" layoutX="296.0" layoutY="180.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row24" layoutX="371.0" layoutY="180.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="r2" layoutX="476.0" layoutY="181.0" mnemonicParsing="false" text="Book" />
+      <Button fx:id="r3" layoutX="476.0" layoutY="223.0" mnemonicParsing="false" text="Book" />
+      <Label fx:id="row34" layoutX="371.0" layoutY="222.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row33" layoutX="296.0" layoutY="222.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row32" layoutX="221.0" layoutY="222.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row31" layoutX="142.0" layoutY="222.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row30" layoutX="63.0" layoutY="222.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row40" layoutX="63.0" layoutY="264.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row41" layoutX="142.0" layoutY="264.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row42" layoutX="221.0" layoutY="264.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row43" layoutX="296.0" layoutY="264.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="row44" layoutX="371.0" layoutY="264.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="r4" layoutX="476.0" layoutY="265.0" mnemonicParsing="false" text="Book" />
+   </children>
+</AnchorPane>

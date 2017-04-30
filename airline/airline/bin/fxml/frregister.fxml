@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #433e3e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FregisterController">
+   <children>
+      <Label layoutX="173.0" layoutY="20.0" text="Flight Registration" textFill="#2bc3a7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="306.0" layoutY="65.0" startX="-100.0" stroke="#2bc3a7" />
+      <Label layoutX="95.0" layoutY="100.0" text="Airline Name" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="307.0" layoutY="96.0" prefHeight="26.0" prefWidth="249.0" promptText="enter airline name" />
+      <TextField fx:id="source" layoutX="307.0" layoutY="130.0" prefHeight="26.0" prefWidth="249.0" promptText="enter source" />
+      <TextField fx:id="destination" layoutX="307.0" layoutY="164.0" prefHeight="26.0" prefWidth="249.0" promptText="enter destination" />
+      <Label layoutX="95.0" layoutY="134.0" text="Source" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="168.0" text="Destination" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="seat" layoutX="307.0" layoutY="198.0" prefHeight="26.0" prefWidth="249.0" promptText="enter seats of flight" />
+      <Label layoutX="94.0" layoutY="200.0" text="Number of seats" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fare" layoutX="307.0" layoutY="232.0" prefHeight="26.0" prefWidth="249.0" promptText="enter fare" />
+      <Label layoutX="93.0" layoutY="232.0" text="Fare" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button onAction="#reg" layoutX="257.0" layoutY="342.0" mnemonicParsing="false" style="-fx-background-color: #2bc3a7;" text="Register">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="93.0" layoutY="301.0" text="Arrival date" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="arr" layoutX="307.0" layoutY="299.0" prefHeight="26.0" prefWidth="249.0" promptText="enter arrival date" />
+      <Label layoutX="94.0" layoutY="269.0" text="Departure date" textFill="#2bc3a7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dept" layoutX="307.0" layoutY="266.0" prefHeight="26.0" prefWidth="249.0" promptText="enter departure date" />
+   </children>
+</AnchorPane>
